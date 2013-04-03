@@ -1,0 +1,1244 @@
+TParticleDesigner
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Info.plist" Resources/Info.plist
+cCompileXIB "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib"
+cCopyStringsFile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/InfoPlist.strings" Resources/InfoPlist.strings
+cCpResource Resources/fps_images.png "build/Debug/Particle Designer.app/Contents/Resources/fps_images.png"
+cCpResource Resources/icon.icns "build/Debug/Particle Designer.app/Contents/Resources/icon.icns"
+cCopyPlistFile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/particle.plist" Resources/particle.plist
+cCpResource Resources/particle.png "build/Debug/Particle Designer.app/Contents/Resources/particle.png"
+cCpResource Resources/shadow.png "build/Debug/Particle Designer.app/Contents/Resources/shadow.png"
+cCompileXIB "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ExampleWindow.xib"
+cCpResource Resources/icon/iBackground.png "build/Debug/Particle Designer.app/Contents/Resources/iBackground.png"
+cCpResource Resources/icon/iDefault.png "build/Debug/Particle Designer.app/Contents/Resources/iDefault.png"
+cCpResource Resources/icon/iExample.png "build/Debug/Particle Designer.app/Contents/Resources/iExample.png"
+cCpResource Resources/icon/iFullScreen.png "build/Debug/Particle Designer.app/Contents/Resources/iFullScreen.png"
+cCpResource Resources/icon/iOpen.png "build/Debug/Particle Designer.app/Contents/Resources/iOpen.png"
+cCpResource Resources/icon/iSave.png "build/Debug/Particle Designer.app/Contents/Resources/iSave.png"
+cCpResource Resources/snow.png "build/Debug/Particle Designer.app/Contents/Resources/snow.png"
+cCompileXIB "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/BackgroundWindow.xib"
+cProcessPCH /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ParticleDesignerAppDelegate.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ParticleDesignerAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/main.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainLayer.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainLayer.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ExampleWindowController.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ExampleWindowController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainWindowController.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainWindowController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MSParticles.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MSParticles.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/BackgroundSettingWindow.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/BackgroundSettingWindow.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/MacOS/Particle Designer" normal x86_64
+cTouch "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000514C3E6F00000000000000AA
+t1363951215
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c0000000050885BDF0000000000007C70
+t1351113695
+s31856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000514C3E470000000000024DD8
+t1363951175
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000050885BE000000000000001E5
+t1351113696
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000050885BE2000000000000AB94
+t1351113698
+s43924
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000514C3E47000000000000ADDC
+t1363951175
+s44508
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c0000000050885BE200000000000028D0
+t1351113698
+s10448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000514C3E48000000000004DE20
+t1363951176
+s319008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.dylib
+c0000000050885BE70000000000004714
+t1351113703
+s18196
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000504FE02F0000000000006730
+t1347412015
+s26416
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/BackgroundSettingWindow.h
+c000000004EC8BAC400000000000003A1
+t1321777860
+s929
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/BackgroundSettingWindow.m
+c000000004EC8BBA40000000000000697
+t1321778084
+s1687
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ExampleWindowController.h
+c000000004EC36C2000000000000002F3
+t1321430048
+s755
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ExampleWindowController.m
+c00000000515144970000000000000F52
+t1364280471
+s3922
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MSParticles.h
+c000000004ECA70D400000000000001C8
+t1321890004
+s456
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MSParticles.m
+c0000000051516A140000000000004340
+t1364290068
+s17216
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainLayer.h
+c000000004ECA6E3C0000000000000121
+t1321889340
+s289
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainLayer.m
+c00000000515904E100000000000004F1
+t1364788449
+s1265
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainWindowController.h
+c000000005158F3920000000000000A07
+t1364784018
+s2567
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainWindowController.m
+c00000000515919F300000000000062CB
+t1364793843
+s25291
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ParticleDesignerAppDelegate.h
+c000000004EBCE84E0000000000000170
+t1321003086
+s368
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ParticleDesignerAppDelegate.m
+c000000005158F845000000000000050F
+t1364785221
+s1295
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/main.m
+c000000005158F375000000000000012C
+t1364783989
+s300
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/BackgroundWindow.xib
+c000000004EC8B9F30000000000009D58
+t1321777651
+s40280
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ExampleWindow.xib
+c000000004EDE27000000000000004575
+t1323181824
+s17781
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/InfoPlist.strings
+c000000004EBA1559000000000000002D
+t1320818009
+s45
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib
+c000000005158F375000000000008D101
+t1364783989
+s577793
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ParticleDesigner_Prefix.pch
+c000000004EBA15590000000000000099
+t1320818009
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/fps_images.png
+c000000004EBA1559000000000000183B
+t1320818009
+s6203
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon.icns
+c000000004EBA155900000000000315DF
+t1320818009
+s202207
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iBackground.png
+c0000000047670D6C00000000000034A1
+t1197935980
+s13473
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iDefault.png
+c0000000047670D6C0000000000003189
+t1197935980
+s12681
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iExample.png
+c0000000047670D6D0000000000003741
+t1197935981
+s14145
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iFullScreen.png
+c0000000047670D6D00000000000031EE
+t1197935981
+s12782
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iOpen.png
+c0000000047670D6D000000000000306C
+t1197935981
+s12396
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iSave.png
+c0000000047670D6C0000000000003167
+t1197935980
+s12647
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/particle.plist
+c000000005158FDB60000000000000A76
+t1364786614
+s2678
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/particle.png
+c000000004EBD65990000000000000FAB
+t1321035161
+s4011
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/shadow.png
+c000000004EBD64AC00000000000031D2
+t1321034924
+s12754
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/snow.png
+c000000004EBE66AF000000000000130A
+t1321100975
+s4874
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app
+t1364793772
+s102
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Info.plist
+t1364783501
+s1581
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/MacOS/Particle Designer
+t1364793772
+s1326624
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/PkgInfo
+t1364783501
+s8
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/BackgroundWindow.nib
+t1364291105
+s8964
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/ExampleWindow.nib
+t1364291105
+s3977
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/InfoPlist.strings
+t1364291099
+s92
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/MainMenu.nib
+t1364783992
+s137917
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/fps_images.png
+t1364291099
+s6203
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/iBackground.png
+t1364291099
+s13473
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/iDefault.png
+t1364291099
+s12681
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/iExample.png
+t1364291099
+s14145
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/iFullScreen.png
+t1364291099
+s12782
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/iOpen.png
+t1364291099
+s12396
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/iSave.png
+t1364291099
+s12647
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/icon.icns
+t1364291099
+s202207
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/particle.plist
+t1364786614
+s2678
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/particle.png
+t1364291099
+s4011
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/shadow.png
+t1364291099
+s12754
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/snow.png
+t1364291099
+s4874
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/libcocos2d.a
+c00000000515918A700000000004724E8
+t1364793511
+s4662504
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/BackgroundSettingWindow.o
+t1364783992
+s30784
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ExampleWindowController.o
+t1364783520
+s47284
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MSParticles.o
+t1364783520
+s63068
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainLayer.o
+t1364793512
+s38576
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainWindowController.o
+t1364793770
+s139160
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/Particle Designer.LinkFileList
+c0000000051516E1B0000000000000450
+t1364291099
+s1104
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ParticleDesignerAppDelegate.o
+t1364785222
+s60644
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/main.o
+t1364783992
+s3208
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCAction.h
+c000000005158EA14000000000000176B
+t1364781588
+s5995
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionCamera.h
+c000000005158EA1400000000000009D6
+t1364781588
+s2518
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionCatmullRom.h
+c000000005158EA140000000000001439
+t1364781588
+s5177
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionEase.h
+c000000005158EA14000000000000166F
+t1364781588
+s5743
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionGrid.h
+c000000005158EA140000000000001490
+t1364781588
+s5264
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionGrid3D.h
+c000000005158EA140000000000001A34
+t1364781588
+s6708
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionInstant.h
+c000000005158EA140000000000001706
+t1364781588
+s5894
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionInterval.h
+c000000005158EA1400000000000035FB
+t1364781588
+s13819
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionManager.h
+c000000005158EA140000000000000FB6
+t1364781588
+s4022
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionPageTurn3D.h
+c000000005158EA140000000000000641
+t1364781588
+s1601
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionProgressTimer.h
+c000000005158EA14000000000000088B
+t1364781588
+s2187
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionTiledGrid.h
+c000000005158EA140000000000001A21
+t1364781588
+s6689
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCActionTween.h
+c000000005158EA140000000000000921
+t1364781588
+s2337
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCAnimation.h
+c000000005158EA1400000000000016D6
+t1364781588
+s5846
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCAnimationCache.h
+c000000005158EA140000000000000A0C
+t1364781588
+s2572
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCAtlasNode.h
+c000000005158EA140000000000000D0D
+t1364781588
+s3341
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCBlockSupport.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCCamera.h
+c000000005158ECDF0000000000000CC8
+t1364782303
+s3272
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCConfiguration.h
+c000000005158EA140000000000000ECF
+t1364781588
+s3791
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCDirector.h
+c000000005158EA140000000000002A00
+t1364781588
+s10752
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCDrawingPrimitives.h
+c000000005158EA140000000000001248
+t1364781588
+s4680
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCGLProgram.h
+c000000005158EA1400000000000016C7
+t1364781588
+s5831
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCGrabber.h
+c000000005158EA140000000000000600
+t1364781588
+s1536
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCGrid.h
+c000000005158EA140000000000000F42
+t1364781588
+s3906
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCLabelAtlas.h
+c000000005158EA140000000000000B31
+t1364781588
+s2865
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCLabelBMFont.h
+c000000005158EA140000000000001C1D
+t1364781588
+s7197
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCLabelTTF.h
+c000000005158EA1400000000000018E7
+t1364781588
+s6375
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCLayer.h
+c000000005158EA14000000000000236B
+t1364781588
+s9067
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCMenu.h
+c000000005158EA140000000000000D25
+t1364781588
+s3365
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCMenuItem.h
+c000000005158EA140000000000003AD8
+t1364781588
+s15064
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCMotionStreak.h
+c000000005158EA140000000000000D44
+t1364781588
+s3396
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCNode+Debug.h
+c000000005158EA1400000000000005B1
+t1364781588
+s1457
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCNode.h
+c000000005158ECF70000000000004D67
+t1364782327
+s19815
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCParallaxNode.h
+c000000005158EA14000000000000077F
+t1364781588
+s1919
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCParticleBatchNode.h
+c000000005158EA140000000000001194
+t1364781588
+s4500
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCParticleExamples.h
+c000000005158EA1400000000000008D2
+t1364781588
+s2258
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCParticleSystem.h
+c000000005158EA14000000000000396C
+t1364781588
+s14700
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCParticleSystemPoint.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCParticleSystemQuad.h
+c000000005158EA14000000000000096C
+t1364781588
+s2412
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCProgressTimer.h
+c000000005158EA140000000000000E30
+t1364781588
+s3632
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCProtocols.h
+c000000005158EA1400000000000010F0
+t1364781588
+s4336
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCRenderTexture.h
+c000000005158EA140000000000001535
+t1364781588
+s5429
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCRibbon.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCScene.h
+c000000005158EA140000000000000692
+t1364781588
+s1682
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCScheduler.h
+c000000005158EA140000000000001DD6
+t1364781588
+s7638
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCShaderCache.h
+c000000005158EA1500000000000007B6
+t1364781589
+s1974
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCSprite.h
+c000000005158EA1500000000000029DA
+t1364781589
+s10714
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCSpriteBatchNode.h
+c000000005158EA1500000000000017D9
+t1364781589
+s6105
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCSpriteFrame.h
+c000000005158EA150000000000001395
+t1364781589
+s5013
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCSpriteFrameCache.h
+c000000005158EA150000000000001102
+t1364781589
+s4354
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTMXLayer.h
+c000000005158EA150000000000001A3F
+t1364781589
+s6719
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTMXObjectGroup.h
+c000000005158EA1500000000000008EF
+t1364781589
+s2287
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTMXTiledMap.h
+c000000005158EA150000000000001591
+t1364781589
+s5521
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTMXXMLParser.h
+c000000005158EA15000000000000191D
+t1364781589
+s6429
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTexture2D.h
+c000000005158EA1500000000000031ED
+t1364781589
+s12781
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTextureAtlas.h
+c000000005158EA150000000000001A81
+t1364781589
+s6785
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTextureCache.h
+c000000005158EA1500000000000014BA
+t1364781589
+s5306
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTexturePVR.h
+c000000005158EA1500000000000011A8
+t1364781589
+s4520
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTileMapAtlas.h
+c000000005158EA150000000000000B9D
+t1364781589
+s2973
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTransition.h
+c000000005158EA15000000000000214E
+t1364781589
+s8526
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTransitionPageTurn.h
+c000000005158EA150000000000000912
+t1364781589
+s2322
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTransitionProgress.h
+c000000005158EA150000000000000810
+t1364781589
+s2064
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/CCTransitionRadial.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/CCGL.h
+c000000005158EA1500000000000008E9
+t1364781589
+s2281
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/CCNS.h
+c000000005158EA1500000000000007DC
+t1364781589
+s2012
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/Mac/../../Support/utlist.h
+c000000005158EA150000000000009070
+t1364781589
+s36976
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+c000000005158EA150000000000000DBD
+t1364781589
+s3517
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+c000000005158EA1500000000000020B9
+t1364781589
+s8377
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/Mac/CCGLView.h
+c000000005158EA150000000000000BDE
+t1364781589
+s3038
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/Mac/CCWindow.h
+c000000005158EA150000000000000601
+t1364781589
+s1537
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/Mac/MacGLView.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/Mac/MacWindow.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h
+c000000005158EA150000000000000D74
+t1364781589
+s3444
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/iOS/CCGLView.h
+c000000005158EA150000000000001BB9
+t1364781589
+s7097
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+c000000005158EA150000000000001099
+t1364781589
+s4249
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/CCArray.h
+c000000005158EA15000000000000103C
+t1364781589
+s4156
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/CCFileUtils.h
+c000000005158EA15000000000000187B
+t1364781589
+s6267
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/CCProfiling.h
+c000000005158EA1500000000000009E5
+t1364781589
+s2533
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/CGPointExtension.h
+c000000005158EA1500000000000020AB
+t1364781589
+s8363
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/OpenGL_Internal.h
+c000000005158EA150000000000001286
+t1364781589
+s4742
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/TGAlib.h
+c000000005158EA150000000000000441
+t1364781589
+s1089
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/TransformUtils.h
+c000000005158EA1500000000000005C4
+t1364781589
+s1476
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/ZipUtils.h
+c000000005158EA1500000000000008AF
+t1364781589
+s2223
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/base64.h
+c000000005158EA150000000000000221
+t1364781589
+s545
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/ccCArray.h
+c000000005158EA15000000000000225A
+t1364781589
+s8794
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/ccUtils.h
+c000000005158EA150000000000000248
+t1364781589
+s584
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/Support/uthash.h
+c000000005158EA15000000000000FE53
+t1364781589
+s65107
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/ccConfig.h
+c000000005158EA1400000000000020D7
+t1364781588
+s8407
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/ccDeprecated.h
+c000000005158EA140000000000003C6B
+t1364781588
+s15467
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/ccGLStateCache.h
+c000000005158EA1400000000000010F0
+t1364781588
+s4336
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/ccMacros.h
+c000000005158EA1400000000000032E4
+t1364781588
+s13028
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/ccShaders.h
+c000000005158EA15000000000000073C
+t1364781589
+s1852
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/ccTypes.h
+c000000005158EA1500000000000020A0
+t1364781589
+s8352
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/cocos2d/cocos2d.h
+c000000005158EA1500000000000011EE
+t1364781589
+s4590
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/GL/matrix.h
+c000000005158EA15000000000000081A
+t1364781589
+s2074
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/aabb.h
+c000000005158EA15000000000000077A
+t1364781589
+s1914
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/kazmath.h
+c000000005158EA15000000000000062B
+t1364781589
+s1579
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/mat3.h
+c000000005158EA150000000000000CAF
+t1364781589
+s3247
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/mat4.h
+c000000005158EA150000000000000F9F
+t1364781589
+s3999
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/plane.h
+c000000005158EA150000000000000AAC
+t1364781589
+s2732
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/quaternion.h
+c000000005158EA1500000000000010D0
+t1364781589
+s4304
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/ray2.h
+c000000005158EA1500000000000007CD
+t1364781589
+s1997
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/utility.h
+c000000005158EA150000000000000880
+t1364781589
+s2176
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/vec2.h
+c000000005158EA150000000000000BA0
+t1364781589
+s2976
+
+N/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/libs/kazmath/include/kazmath/vec3.h
+c000000005158EA150000000000000D29
+t1364781589
+s3369
+
+N/var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch.pth
+t1364783519
+s12835744
+
+N/var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-cnihvqxbhsicznavseutkatlupsm/ParticleDesigner_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-dmxwnqnnuwfuiadsfquxfhcccdwl/ParticleDesigner_Prefix.pch.pth
+t1364783501
+s12835744
+
+N/var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-hctelklomnwheqgyxtgupnbdafgb/ParticleDesigner_Prefix.pch.pth
+t1364291105
+s12835744
+
+NResources/Info.plist
+c000000005158EA9300000000000004CE
+t1364781715
+s1230
+
+CBuild AST from "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/BackgroundSettingWindow.m"
+r0
+
+CBuild AST from "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ExampleWindowController.m"
+r0
+
+CBuild AST from "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MSParticles.m"
+r0
+
+CBuild AST from "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainLayer.m"
+r0
+
+CBuild AST from "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainWindowController.m"
+r0
+
+CBuild AST from "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ParticleDesignerAppDelegate.m"
+r0
+
+CBuild AST from "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese6084d735109b741^3f6f4e735109b741^---0#1#0#--18"Check dependencies36"E675DC35-F69B-4501-967C-2EE42F50B8E1-
+
+CCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/BackgroundSettingWindow.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/BackgroundSettingWindow.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386476792.305379
+e386476792.558817
+r1
+xCompileC
+xbuild/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/BackgroundSettingWindow.o
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/BackgroundSettingWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/BackgroundSettingWindow.mf4514ef82a09b741^01188ff82a09b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Classes/BackgroundSettingWindow.m0000000000000000^3322"CompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/BackgroundSettingWindow.o Classes/BackgroundSettingWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -Ilibs/kazmath/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" -include /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch -MMD -MT dependencies -MF "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/BackgroundSettingWindow.d" --serialize-diagnostics "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/BackgroundSettingWindow.dia" -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/BackgroundSettingWindow.m" -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/BackgroundSettingWindow.o"36"0220D7A5-EC56-4F3D-A739-44F7576AE504-
+
+CCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ExampleWindowController.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ExampleWindowController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386476320.068680
+e386476320.324204
+r1
+xCompileC
+xbuild/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ExampleWindowController.o
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ExampleWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ExampleWindowController.mfcc411202909b741^6d0353202909b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Classes/ExampleWindowController.m0000000000000000^3322"CompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ExampleWindowController.o Classes/ExampleWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -Ilibs/kazmath/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" -include /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch -MMD -MT dependencies -MF "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ExampleWindowController.d" --serialize-diagnostics "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ExampleWindowController.dia" -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ExampleWindowController.m" -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ExampleWindowController.o"36"2A4F826C-C2E4-4E5A-AFB8-A327ECEC3149-
+
+CCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MSParticles.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MSParticles.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386476320.069134
+e386476320.324176
+r1
+xCompileC
+xbuild/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MSParticles.o
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MSParticles.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MSParticles.m44db11202909b741^b0ff52202909b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Classes/MSParticles.m0000000000000000^3250"CompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MSParticles.o Classes/MSParticles.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -Ilibs/kazmath/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" -include /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch -MMD -MT dependencies -MF "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MSParticles.d" --serialize-diagnostics "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MSParticles.dia" -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MSParticles.m" -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MSParticles.o"36"B1382135-ABF4-45A8-B1C3-7BBDB1BDA6F8-
+
+CCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainLayer.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainLayer.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386486312.000390
+e386486312.658980
+r1
+xCompileC
+xbuild/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainLayer.o
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainLayer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainLayer.m613700285009b741^89b1a8285009b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Classes/MainLayer.m0000000000000000^3238"CompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainLayer.o Classes/MainLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -Ilibs/kazmath/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" -include /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch -MMD -MT dependencies -MF "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainLayer.d" --serialize-diagnostics "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainLayer.dia" -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainLayer.m" -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainLayer.o"36"3008A04D-3EBB-4C17-80DF-A34ADE0F8968-
+
+CCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainWindowController.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainWindowController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386486643.390953
+e386486643.654530
+r1
+xCompileC
+xbuild/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainWindowController.o
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainWindowController.mf83364735109b741^9cdca7735109b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Classes/MainWindowController.m0000000000000000^3304"CompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainWindowController.o Classes/MainWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -Ilibs/kazmath/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" -include /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch -MMD -MT dependencies -MF "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainWindowController.d" --serialize-diagnostics "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainWindowController.dia" -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/MainWindowController.m" -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/MainWindowController.o"36"A344C9C5-7D03-41CD-826A-C33F9B56EAEC-
+
+CCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ParticleDesignerAppDelegate.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ParticleDesignerAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386478021.654178
+e386478022.655805
+r1
+xCompileC
+xbuild/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ParticleDesignerAppDelegate.o
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ParticleDesignerAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ParticleDesignerAppDelegate.m44a3a7c52f09b741^11e1a7c62f09b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Classes/ParticleDesignerAppDelegate.m0000000000000000^3346"CompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ParticleDesignerAppDelegate.o Classes/ParticleDesignerAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -Ilibs/kazmath/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" -include /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch -MMD -MT dependencies -MF "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ParticleDesignerAppDelegate.d" --serialize-diagnostics "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ParticleDesignerAppDelegate.dia" -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/ParticleDesignerAppDelegate.m" -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/ParticleDesignerAppDelegate.o"36"EEBBF6B3-365B-4B4C-919B-A60F502B845D-
+
+CCompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/main.o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386476792.300966
+e386476792.437061
+r1
+xCompileC
+xbuild/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/main.o
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/main.m16344df82a09b741^fce16ff82a09b741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Classes/main.m0000000000000000^3208"CompileC build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/main.o Classes/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -Ilibs/kazmath/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" -include /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch -MMD -MT dependencies -MF "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/main.dia" -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Classes/main.m" -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/main.o"36"87CAE4EE-6826-40EF-96AD-0F9B434A2132-
+
+CCompileXIB "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/BackgroundWindow.xib"
+s385983899.416949
+e385983905.085591
+r1
+xCompileXIB
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/BackgroundWindow.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/BackgroundWindow.xib:21: note: View is clipping its content [13]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/BackgroundWindow.xibf7cc6a9ba501b741^f2ed15a1a501b741^-166"/* com.apple.ibtool.document.notices *//Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/BackgroundWindow.xib:21: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-385983905#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@106"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/BackgroundWindow.xib0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@106"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/BackgroundWindow.xib0000000000000000^667"CompileXIB Resources/BackgroundWindow.xib    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/BackgroundWindow.nib" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/BackgroundWindow.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"29BDEF2C-00D4-4AFE-B4A6-41CCBCED5D6D-
+
+CCompileXIB "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ExampleWindow.xib"
+s385983899.317808
+e385983905.147271
+r1
+xCompileXIB
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ExampleWindow.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ExampleWindow.xib:29: note: View is clipping its content [13]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ExampleWindow.xib9c6e519ba501b741^ddb425a1a501b741^-163"/* com.apple.ibtool.document.notices *//Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ExampleWindow.xib:29: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-385983905#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@103"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/ExampleWindow.xib0000000000000000^28#18446744073709551615#28#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/ExampleWindow.xib0000000000000000^658"CompileXIB Resources/ExampleWindow.xib    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/ExampleWindow.nib" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ExampleWindow.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"644411FC-5534-4280-8B23-B0342441F8D0-
+
+CCompileXIB "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib"
+s386476790.702118
+e386476792.286650
+r1
+xCompileXIB
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib
+o2013-04-01 10:39:52.157 ibtoold[6258:707] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o2013-04-01 10:39:52.158 ibtoold[6258:707] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o/* com.apple.ibtool.document.notices */
+o/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib:657: note: View is clipping its content [13]
+o/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib:584: note: View is clipping its content [13]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib40dcb5f62a09b741^806149f82a09b741^-599"2013-04-01 10:39:52.157 ibtoold[6258:707] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***2013-04-01 10:39:52.158 ibtoold[6258:707] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***/* com.apple.ibtool.document.notices *//Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib:657: note: View is clipping its content/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib:584: note: View is clipping its content2(21%IDEActivityLogMessage2@28"View is clipping its content-386476792#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@98"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/MainMenu.xib0000000000000000^656#18446744073709551615#656#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@28"View is clipping its content-386476792#18446744073709551615#0#-0#-3@98"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/MainMenu.xib0000000000000000^583#18446744073709551615#583#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/MainMenu.xib0000000000000000^643"CompileXIB Resources/MainMenu.xib    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/MainMenu.nib" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"35990BE6-7697-4E09-A364-48627A6EABDA-
+
+CCopyPlistFile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/particle.plist" Resources/particle.plist
+s386479414.701975
+e386479414.736674
+r1
+xCopyPlistFile
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/particle.plist
+xResources/particle.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Copy Resources/particle.plist4bccb3363509b741^9a96bc363509b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/particle.plist0000000000000000^348"CopyPlistFile "build/Debug/Particle Designer.app/Contents/Resources/particle.plist" Resources/particle.plist    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copyPlist --outdir "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources" -- Resources/particle.plist36"C980FD10-6195-48DD-9E29-864F8772FCA6-
+
+CCopyStringsFile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/InfoPlist.strings" Resources/InfoPlist.strings
+s385983899.261102
+e385983899.312544
+r1
+xCopyStringsFile
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources/InfoPlist.strings
+xResources/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy Resources/InfoPlist.strings08e8429ba501b741^f701509ba501b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/InfoPlist.strings0000000000000000^418"CopyStringsFile "build/Debug/Particle Designer.app/Contents/Resources/InfoPlist.strings" Resources/InfoPlist.strings    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources" -- Resources/InfoPlist.strings36"8D1D6440-7663-434A-A738-5A1DAE15B02C-
+
+CCpResource Resources/fps_images.png "build/Debug/Particle Designer.app/Contents/Resources/fps_images.png"
+s385983899.261111
+e385983899.303423
+r1
+xCpResource
+xResources/fps_images.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/fps_images.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug/Particle Designer.app/Contents/Resources/fps_images.png31ea429ba501b741^8aac4d9ba501b741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/fps_images.png000000000080d041^609"CpResource Resources/fps_images.png "build/Debug/Particle Designer.app/Contents/Resources/fps_images.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/fps_images.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"33743580-DAF8-45D3-8A5B-71BB3059292F-
+
+CCpResource Resources/icon.icns "build/Debug/Particle Designer.app/Contents/Resources/icon.icns"
+s385983899.304960
+e385983899.313596
+r1
+xCpResource
+xResources/icon.icns
+xbuild/Debug/Particle Designer.app/Contents/Resources/icon.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug/Particle Designer.app/Contents/Resources/icon.icnsaf274e9ba501b741^0249509ba501b741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/icon.icns000000000080d041^594"CpResource Resources/icon.icns "build/Debug/Particle Designer.app/Contents/Resources/icon.icns"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon.icns" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"F494D7FD-2743-47FA-B06E-FBD33E86D6DC-
+
+CCpResource Resources/icon/iBackground.png "build/Debug/Particle Designer.app/Contents/Resources/iBackground.png"
+s385983899.339322
+e385983899.342251
+r1
+xCpResource
+xResources/icon/iBackground.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/iBackground.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/Particle Designer.app/Contents/Resources/iBackground.pngb3ef569ba501b741^8c9e579ba501b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/iBackground.png000000000080d041^622"CpResource Resources/icon/iBackground.png "build/Debug/Particle Designer.app/Contents/Resources/iBackground.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iBackground.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"1DFE7C75-D2EC-44B8-A459-C7AB1A5717D9-
+
+CCpResource Resources/icon/iDefault.png "build/Debug/Particle Designer.app/Contents/Resources/iDefault.png"
+s385983899.343764
+e385983899.346440
+r1
+xCpResource
+xResources/icon/iDefault.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/iDefault.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug/Particle Designer.app/Contents/Resources/iDefault.pnge415589ba501b741^7db0589ba501b741^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/iDefault.png000000000080d041^613"CpResource Resources/icon/iDefault.png "build/Debug/Particle Designer.app/Contents/Resources/iDefault.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iDefault.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"01D5A7E6-EF74-4A12-8A7F-5F2CDD661104-
+
+CCpResource Resources/icon/iExample.png "build/Debug/Particle Designer.app/Contents/Resources/iExample.png"
+s385983899.347916
+e385983899.371784
+r1
+xCpResource
+xResources/icon/iExample.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/iExample.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug/Particle Designer.app/Contents/Resources/iExample.png9e24599ba501b741^aa2b5f9ba501b741^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/iExample.png000000000080d041^613"CpResource Resources/icon/iExample.png "build/Debug/Particle Designer.app/Contents/Resources/iExample.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iExample.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"E2484542-D3CB-49C7-B95A-B3CA60FD48A4-
+
+CCpResource Resources/icon/iFullScreen.png "build/Debug/Particle Designer.app/Contents/Resources/iFullScreen.png"
+s385983899.373149
+e385983899.403497
+r1
+xCpResource
+xResources/icon/iFullScreen.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/iFullScreen.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/Particle Designer.app/Contents/Resources/iFullScreen.pngfb945f9ba501b741^944b679ba501b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/iFullScreen.png000000000080d041^622"CpResource Resources/icon/iFullScreen.png "build/Debug/Particle Designer.app/Contents/Resources/iFullScreen.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iFullScreen.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"F9281B37-6490-4967-8EA9-792A418E9D0D-
+
+CCpResource Resources/icon/iOpen.png "build/Debug/Particle Designer.app/Contents/Resources/iOpen.png"
+s385983899.404869
+e385983899.407650
+r1
+xCpResource
+xResources/icon/iOpen.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/iOpen.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug/Particle Designer.app/Contents/Resources/iOpen.png13ba679ba501b741^465c689ba501b741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/iOpen.png000000000080d041^604"CpResource Resources/icon/iOpen.png "build/Debug/Particle Designer.app/Contents/Resources/iOpen.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iOpen.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"0F2F24E1-59DD-4B39-90CF-28C03D3A2BBF-
+
+CCpResource Resources/icon/iSave.png "build/Debug/Particle Designer.app/Contents/Resources/iSave.png"
+s385983899.408992
+e385983899.411942
+r1
+xCpResource
+xResources/icon/iSave.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/iSave.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug/Particle Designer.app/Contents/Resources/iSave.png33c5689ba501b741^7174699ba501b741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/iSave.png000000000080d041^604"CpResource Resources/icon/iSave.png "build/Debug/Particle Designer.app/Contents/Resources/iSave.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/icon/iSave.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"C9B4897B-1FDD-4D19-8AD4-1ACC5FC55E81-
+
+CCpResource Resources/particle.png "build/Debug/Particle Designer.app/Contents/Resources/particle.png"
+s385983899.313881
+e385983899.317293
+r1
+xCpResource
+xResources/particle.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/particle.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug/Particle Designer.app/Contents/Resources/particle.pnga46d509ba501b741^3f3a519ba501b741^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/particle.png000000000080d041^603"CpResource Resources/particle.png "build/Debug/Particle Designer.app/Contents/Resources/particle.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/particle.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"8BBE37C2-8BF7-4F61-AFE4-4699337BB53A-
+
+CCpResource Resources/shadow.png "build/Debug/Particle Designer.app/Contents/Resources/shadow.png"
+s385983899.317779
+e385983899.338072
+r1
+xCpResource
+xResources/shadow.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/shadow.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/Particle Designer.app/Contents/Resources/shadow.png2b6d519ba501b741^8fc5569ba501b741^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/shadow.png000000000080d041^597"CpResource Resources/shadow.png "build/Debug/Particle Designer.app/Contents/Resources/shadow.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/shadow.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"57DE1D9B-CC85-495C-982A-87561FB75C7E-
+
+CCpResource Resources/snow.png "build/Debug/Particle Designer.app/Contents/Resources/snow.png"
+s385983899.413407
+e385983899.415749
+r1
+xCpResource
+xResources/snow.png
+xbuild/Debug/Particle Designer.app/Contents/Resources/snow.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug/Particle Designer.app/Contents/Resources/snow.png3cf4699ba501b741^876e6a9ba501b741^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/build/Debug/Particle%20Designer.app/Contents/Resources/snow.png000000000080d041^591"CpResource Resources/snow.png "build/Debug/Particle Designer.app/Contents/Resources/snow.png"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/snow.png" "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Resources"36"90F20E53-33E0-4D46-828B-CF255C0E498E-
+
+CLd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/MacOS/Particle Designer" normal x86_64
+s386486643.672600
+e386486644.256643
+r1
+xLd
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/MacOS/Particle Designer
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/MacOS/Particle Designer4355ac735109b741^6ea741745109b741^---0#0#0#--1154"Ld "build/Debug/Particle Designer.app/Contents/MacOS/Particle Designer" normal x86_64    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" "-L/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" -filelist "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Objects-normal/x86_64/Particle Designer.LinkFileList" -mmacosx-version-min=10.6 -fobjc-link-runtime -framework QuartzCore -framework Quartz -framework Cocoa -framework OpenGL -framework ApplicationServices -lz -framework OpenAL -framework AudioToolbox -lcocos2d -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/MacOS/Particle Designer"36"3D41C403-95E6-4ADE-A4A3-D24935D38F0F-
+
+CProcessInfoPlistFile "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Info.plist" Resources/Info.plist
+s386476301.254750
+e386476301.273535
+r1
+xProcessInfoPlistFile
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Info.plist
+xResources/Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Resources/Info.plist0a4a410d2909b741^ab05460d2909b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/Info.plist0000000000000000^493"ProcessInfoPlistFile "build/Debug/Particle Designer.app/Contents/Info.plist" Resources/Info.plist    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app/Contents/Info.plist"36"91C102CC-24AB-4FDF-8BA8-60FF1F54219C-
+
+CProcessPCH /Users/bennachen/Library/Developer/Xcode/DerivedData/ParticleDesigner-bojbfedxvdadfcffoegmxeomttla/Index/PrecompiledHeaders/ParticleDesigner_Prefix-cjhqaixpziyggzfdbyjqssviqrmu_ast/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/bennachen/Library/Developer/Xcode/DerivedData/ParticleDesigner-bojbfedxvdadfcffoegmxeomttla/Index/PrecompiledHeaders/ParticleDesigner_Prefix-etumjqhspmhvgxajepuyykcbvfek_ast/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/bennachen/Library/Developer/Xcode/DerivedData/ParticleDesigner-bojbfedxvdadfcffoegmxeomttla/Index/PrecompiledHeaders/ParticleDesigner_Prefix-fghyrbhnouuxaueadmlubisagqwu_ast/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/bennachen/Library/Developer/Xcode/DerivedData/ParticleDesigner-bojbfedxvdadfcffoegmxeomttla/Index/PrecompiledHeaders/ParticleDesigner_Prefix-glscchwkibvqddhiobdefrwydvcy_ast/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386476319.316774
+e386476320.061772
+r1
+xProcessPCH
+x/var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch.pth
+xResources/ParticleDesigner_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile Resources/ParticleDesigner_Prefix.pch0e32511f2909b741^e6cf0f202909b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/ParticleDesigner_Prefix.pch0000000000000000^3263"ProcessPCH /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -Ilibs/kazmath/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" --serialize-diagnostics /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch.dia -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ParticleDesigner_Prefix.pch" -o /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-ckwedgppnokigrctwmfdhaxpkorq/ParticleDesigner_Prefix.pch.d36"AD189C25-D6BF-4095-8081-9DEA64851B13-
+
+CProcessPCH /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-cnihvqxbhsicznavseutkatlupsm/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-dmxwnqnnuwfuiadsfquxfhcccdwl/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386476301.294095
+e386476302.087653
+r1
+xProcessPCH
+x/var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-dmxwnqnnuwfuiadsfquxfhcccdwl/ParticleDesigner_Prefix.pch.pth
+xResources/ParticleDesigner_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile Resources/ParticleDesigner_Prefix.pch1a6b4b0d2909b741^f86f160e2909b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/ParticleDesigner_Prefix.pch0000000000000000^3240"ProcessPCH /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-dmxwnqnnuwfuiadsfquxfhcccdwl/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" --serialize-diagnostics /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-dmxwnqnnuwfuiadsfquxfhcccdwl/ParticleDesigner_Prefix.pch.dia -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ParticleDesigner_Prefix.pch" -o /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-dmxwnqnnuwfuiadsfquxfhcccdwl/ParticleDesigner_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-dmxwnqnnuwfuiadsfquxfhcccdwl/ParticleDesigner_Prefix.pch.d36"6280C204-4A55-4E5A-99CB-7DC51AE3C821-
+
+CProcessPCH /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-hctelklomnwheqgyxtgupnbdafgb/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385983905.251957
+e385983906.198196
+r1
+xProcessPCH
+x/var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-hctelklomnwheqgyxtgupnbdafgb/ParticleDesigner_Prefix.pch.pth
+xResources/ParticleDesigner_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile Resources/ParticleDesigner_Prefix.pch749b40a1a501b741^242a40a2a501b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/bennachen/Documents/cocos2dTool/ParticleDesigner%202/Resources/ParticleDesigner_Prefix.pch0000000000000000^3519"ProcessPCH /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-hctelklomnwheqgyxtgupnbdafgb/ParticleDesigner_Prefix.pch.pth Resources/ParticleDesigner_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=2 -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-generated-files.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-own-target-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-all-target-headers.hmap" -iquote "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/Particle Designer-project-headers.hmap" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources/x86_64" "-I/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/ParticleDesigner.build/Debug/ParticleDesigner.build/DerivedSources" "-F/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug" --serialize-diagnostics /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-hctelklomnwheqgyxtgupnbdafgb/ParticleDesigner_Prefix.pch.dia -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/Resources/ParticleDesigner_Prefix.pch" -o /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-hctelklomnwheqgyxtgupnbdafgb/ParticleDesigner_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/gc/llj_9s6n3fn1hthprwf8cl7h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ParticleDesigner_Prefix-hctelklomnwheqgyxtgupnbdafgb/ParticleDesigner_Prefix.pch.d36"0EF6C6E6-3202-4950-A6F0-4EF374A6F850-
+
+CTouch "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app"
+s386486644.272826
+e386486644.301116
+r1
+xTouch
+x/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app5e4946745109b741^f0154d745109b741^---0#0#0#--225"Touch "build/Debug/Particle Designer.app"    cd "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2"    /usr/bin/touch -c "/Users/bennachen/Documents/cocos2dTool/ParticleDesigner 2/build/Debug/Particle Designer.app"36"38CD6859-456D-46C1-AA50-F0EE9B9D5FC8-
+
